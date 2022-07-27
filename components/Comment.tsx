@@ -1,7 +1,7 @@
-import { Comment } from "../typings";
+import { IComment } from "../typings";
 
 interface Props {
-  comment: Comment;
+  comment: IComment;
 }
 
 const Comment = ({ comment }: Props) => {

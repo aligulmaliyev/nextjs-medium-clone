@@ -1,8 +1,8 @@
-import { Post } from "../typings";
+import { IPost } from "../typings";
 import Comment from "./Comment";
 
 interface Props {
-  post: Post;
+  post: IPost;
 }
 
 const CommentList = ({ post }: Props) => {
