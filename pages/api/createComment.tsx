@@ -21,7 +21,7 @@ export default async function createComment(
       _type: "comment",
       post: {
         _type: "reference",
-        _id: _id,
+        _ref: _id,
       },
       name,
       email,
